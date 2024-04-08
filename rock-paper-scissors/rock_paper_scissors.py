@@ -33,3 +33,9 @@ while True:
         print("You win!")
     else:
         print("You lose!")
+
+    # check if player wants to continue playing
+    play_again = input("Do you want to play again? (yes/no): ").lower()
+    if play_again != "yes":
+        print("Game ended. Bye bye!")
+        break
